@@ -29,7 +29,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[#]' : process.env.HANDLERS,
     CK: process.env.CK === undefined ? '```Made by WhatasAlexa™\n| Copyright © 2021 |```' : process.env.CK,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    BRANCH: 'master',
+    BRANCH: 'next_gen',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
